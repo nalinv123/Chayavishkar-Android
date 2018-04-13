@@ -1,0 +1,34 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:paddingTop="25dp"
+    tools:context="com.example.admin.chayavishkar.About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/stjsgm"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+            Shree Tambadi Jogeshwari Sarvajanik Ganeshotsav Mandal has been part of many social programs since its inception. The main motive of Lokmanya Tilak was to get all the people from all walks of life together. Following the same traditions and to pave way for young talent in photography the Mandal came up with the idea of a photography contest in 2013. This is fourth year of competition.\n
+          The contest had 2 themes in 2013 namely “Sarvajanik Ganesh Utsav” and “Men on duty”. Every participant had to send 2 photos for each theme.  The Mandal had also organised a Exhibition of the photographs taken by the participants. There were cash prizes given for each Theme and there was a overall winner.\n
+          Though being the first time The Mandal received a overwhelming response for this initiative. There were Participants from all over Pune and from outside.\n
+          The mandal has pledged to organise this competition this year as well. With last year’s experience and some new ideas this year, we want to increase the reach and the involvement of people in this initiative."
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

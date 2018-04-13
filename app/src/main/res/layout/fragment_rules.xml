@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    tools:context="com.example.admin.chayavishkar.Rules">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/imageView6"
+                 android:layout_alignParentTop="true"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginBottom="375dp"
+                 android:src="@drawable/chayavishkarlogo"
+                 android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:textSize="20dp"
+                android:text="1.Photos will be accepted in the form of soft copy only.\n 2.All photos must be submitted in the highest quality JPEG.\n 3.Ensure that the resolution of photograph you submit allow a print size of 12”X18” or 18”X12” with minimum of 300dpi.\n 4.Please do not include embedded captions, copyright information, watermarks, frames, borders etc. as part of photograph. Such entries will be considered invalid.\n 5.Make sure, your photos are exhibition ready (Adjust levels, curves, color balance and other essential settings to produce best looking images).\n 6.Participant guarantees, that he/she owns the copyrights for each and every submitted photograph.\n 7.Morphed photographs (alteration in original composition by adding subjects/entities) and digital manipulation will not be allowed.\n 8.Participant need to send photo through e-mail in below format. Once you register for event, you will get e-mail id where you have to send photos.\n 9.There are 4 themes for this photo contest(ThemeCode) and no need to register for each theme separately. Once you register, you can send photos for all or any of the theme.\n 10.For each photo you submit, it will be good if you can provide a caption and idea behind that photo.\n 11.You can send maximum 2(two) photos in each category/theme.\n 12.As a organizer, we have all rights to select photos for exhibition.\n 13.You as a contestant give all rights to Organizer of Photo competition to reproduce photos apart from photo competition and exhibition.\n 14.Result declared by Organizers and Judges will be final. Contestants cannot raise any kind of objection against it.\n 15.Do not misplace your acknowledgement receipt. Your receipt is your identification.\n 16.“Shree Tambdi Jogeshwari Sarvajanik Ganeshotsav Mandal” as a organizer we reserves all rights to change rules or to cancel competition/exhibition without any prior notice.\n 17.Failure to follow any rules will result in cancellation of your entry.\n 18.Any dispute is applicable under Pune judiciary.\n"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+
+</ScrollView>
